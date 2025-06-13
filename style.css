@@ -13,19 +13,22 @@
 }
 
 
-.nav-item{
+.nav-item {
     font-size: 1.3rem;
     font-family: var(--heading-font-weight);
 }
-.nav-item a:hover{
+
+.nav-item a:hover {
     border-bottom: 1px solid red;
 }
-@media screen and (min-width: 768px){
-        .navbar{
-            height: 60px;
-        }
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        height: 60px;
+    }
 }
-    /* ******************************************* */
+
+/* ******************************************* */
 
 
 
@@ -36,16 +39,18 @@
     height: 116.2vh;
     width: 100%;
 }
-.first-container .robot img{
+
+.first-container .robot img {
     height: 150px;
 }
-.first-container .robot{
+
+.first-container .robot {
     position: relative;
     top: 70px;
     margin-left: 50px;
 }
 
-.first-container .para h1{
+.first-container .para h1 {
     width: 50%;
     font-family: var(--heading-font-family);
     font-weight: var(--heading-font-weight);
@@ -53,39 +58,42 @@
     position: relative;
     left: 110px;
     top: 20px;
-    color: white ;
+    color: white;
 }
 
-.first-container .para p{
+.first-container .para p {
     width: 50%;
     font-family: var(--heading-font-family);
     font-size: 1.4rem;
     line-height: 3rem;
-    margin-left:120px;
+    margin-left: 120px;
     margin-top: 25px;
-    color: white ;    
+    color: white;
 }
+
 /* ***********************media ********************* */
 
 
 
 /* ******************************************************************* */
-.second-container{
+.second-container {
     width: 100%;
     /* height: 105vh; */
     display: flex;
 }
-.second-container .technology{
+
+.second-container .technology {
     width: 70%;
 }
-.second-container .technology h2{
+
+.second-container .technology h2 {
     font-family: var(--heading-font-family);
     font-weight: var(--heading-font-weight);
     text-transform: uppercase;
-    margin: 50px  0px 5px 70px;
+    margin: 50px 0px 5px 70px;
 }
 
-.second-container .technology h3{
+.second-container .technology h3 {
     font-family: var(--heading-font-family);
     font-weight: var(--heading-font-weight);
     font-size: 5rem;
@@ -93,7 +101,7 @@
     margin-left: 70px;
 }
 
-.second-container .technology .border{
+.second-container .technology .border {
     height: 20px;
     width: 580px;
     background-color: aqua;
@@ -103,7 +111,7 @@
 
 }
 
-.second-container .technology p{
+.second-container .technology p {
     width: 75%;
     display: flex;
     font-size: 1.5rem;
@@ -133,23 +141,26 @@
 .btn-learn:hover {
     background-color: rgb(22, 173, 199);
 }
-.second-container .img1 img{
+
+.second-container .img1 img {
     height: 600px;
     width: 500px;
 }
-.second-container .img1{
+
+.second-container .img1 {
     width: 40%;
     margin-top: -160px;
     margin-left: -79px;
     display: flex;
     flex-wrap: wrap;
 }
+
 /* ******************media************************** */
 
 
 
 /* ****************************************************************************** */
-.third-container{
+.third-container {
     margin-top: 10%;
     /* height: 155vh; */
     width: 100%;
@@ -157,7 +168,7 @@
     background-repeat: no-repeat;
 }
 
-.third-container .bubble .img2{
+.third-container .bubble .img2 {
     height: 400px;
     width: 400px;
     /* width: 40%; */
@@ -166,7 +177,8 @@
     display: flex;
     flex-wrap: wrap;
 }
-.third-container .bubble .img3{
+
+.third-container .bubble .img3 {
     border-radius: 100%;
     height: 450px;
     position: relative;
@@ -174,16 +186,16 @@
     left: 600px;
 }
 
-.third-container .bubble .img4{
-    height:100px;
-    width:100px;
+.third-container .bubble .img4 {
+    height: 100px;
+    width: 100px;
     position: relative;
     top: -570px;
     right: -540px;
 }
 
-.third-container .img-container{
-    display: flex; 
+.third-container .img-container {
+    display: flex;
     width: 1080px;
     margin-left: 7%;
     margin-right: 5%;
@@ -193,30 +205,32 @@
     justify-content: center;
     column-gap: 30px;
 }
-.third-container .img-container .img5{
+
+.third-container .img-container .img5 {
     height: 350px;
-    width:270px;
+    width: 270px;
     margin-top: 350px;
 }
 
-.third-container .img-container .img6{
+.third-container .img-container .img6 {
     margin-top: 230px;
     height: 600px;
     width: 285px;
 }
-.third-container .img-container .img7{
+
+.third-container .img-container .img7 {
     margin-top: 350px;
     height: 300px;
     width: 270px;
 }
 
-.third-container .img-container .img8{
+.third-container .img-container .img8 {
     height: 400px;
     width: 270px;
     margin-top: 250px;
 }
 
- .para3 p{
+.para3 p {
     position: relative;
     top: -140px;
     margin-left: 650px;
@@ -224,65 +238,72 @@
     color: white;
     line-height: 2rem;
 }
+
 /* **************************media***************** */
 
 
 
 /* ****************************************************************************** */
 
-.forth-container{
+.forth-container {
     width: 100%;
     /* height: 55vh; */
 }
 
-.forth-container .tech{
+.forth-container .tech {
     font-family: var(--heading-font-family);
     font-weight: var(--heading-font-weight);
 }
-.forth-container .tech h2{
+
+.forth-container .tech h2 {
     margin-top: 50px;
     margin-left: 50px;
 }
 
-.forth-container .tech h3{
+.forth-container .tech h3 {
     margin-top: 30px;
     margin-left: 50px;
     font-size: 4rem;
     color: #7f2cbd;
 }
 
-.forth-container .box{
+.forth-container .box {
     display: flex;
     flex-direction: row;
     gap: 5rem;
     margin: 50px;
-    width: 70%; 
-    margin-bottom: 190px; 
+    width: 70%;
+    margin-bottom: 190px;
 }
-.box1 img{
+
+.box1 img {
     height: 100px;
     width: 100px;
 }
-.box2 img{
+
+.box2 img {
     height: 100px;
     width: 100px;
 }
-.box3 img{
+
+.box3 img {
     height: 100px;
     width: 100px;
 }
-.forth-container .box h3{
+
+.forth-container .box h3 {
     font-size: 2rem;
     color: #7f2cbd;
     margin-top: 40px;
 }
-.forth-container .box p{
+
+.forth-container .box p {
     font-size: 1.5rem;
     margin-top: 20px;
     width: 120%;
 }
 
-.forth-container .box4 img{
+.forth-container .box4 img {
     height: 450px;
     width: 450px;
     display: flex;
@@ -290,13 +311,14 @@
     margin-top: -900px;
     /* z-index: 1; */
 }
+
 /* ******************************************************* */
 
 
 
 /* ************************************************************************************** */
 
-.fifth-container{
+.fifth-container {
     width: 100%;
     background-image: url("./assets/bggradient4.jpg");
     background-repeat: no-repeat;
@@ -310,12 +332,13 @@
     width: 450px;
 }
 
-.fifth-container .Jeff-Bezos h2{
+.fifth-container .Jeff-Bezos h2 {
     font-size: 20rem;
     color: #F6DA0A;
     margin-left: 30px;
 }
-.fifth-container .Jeff-Bezos P{
+
+.fifth-container .Jeff-Bezos P {
     font-size: 1.7rem;
     margin-top: -100px;
     margin-right: 30px;
@@ -323,7 +346,7 @@
     line-height: 2rem;
 }
 
-.fifth-container .Jeff-Bezos h3{
+.fifth-container .Jeff-Bezos h3 {
     font-size: 2.3rem;
     margin-left: 570px;
     margin-top: 40px;
@@ -335,19 +358,19 @@
 
 /* ******************************************************************* */
 
-.sixth-container{
+.sixth-container {
     background-image: url(./assets/bggradient.jpg);
     display: flex;
 }
 
-.sixth-container .box5 img{
+.sixth-container .box5 img {
     height: 400px;
     width: 700px;
     margin-top: -100px;
     margin-left: 60px;
 }
 
-.sixth-container .box6{
+.sixth-container .box6 {
     height: 200px;
     width: 150px;
     position: relative;
@@ -356,7 +379,8 @@
     margin-left: -550px;
     margin-top: 260px;
 }
-.sixth-container .box7 img{
+
+.sixth-container .box7 img {
     height: 260px;
     width: 400px;
     position: relative;
@@ -365,19 +389,20 @@
     margin-bottom: 100px;
 }
 
-.sixth-container .Cars{
+.sixth-container .Cars {
     margin-left: 150px;
     font-size: 3rem;
     color: white;
 }
-.sixth-container .Cars h2{
+
+.sixth-container .Cars h2 {
     position: relative;
     top: 70px;
     z-index: 1;
     font-size: 4rem;
 }
 
-.sixth-container .Cars .line{
+.sixth-container .Cars .line {
     height: 20px;
     width: 400px;
     background-color: aqua;
@@ -385,7 +410,7 @@
     top: 40px;
 }
 
-.sixth-container .Cars p{
+.sixth-container .Cars p {
     font-size: 1.4rem;
     margin-top: 80px;
     margin-right: 100px;
@@ -395,33 +420,37 @@
 
 /* *******************************************************************8 */
 
-.seven-container{
+.seven-container {
     width: 100%;
     height: 900px;
     background-color: lightgray;
 }
-.seven-container .ai{
+
+.seven-container .ai {
     margin-left: 80px;
 }
-.seven-container .ai h4{
+
+.seven-container .ai h4 {
     position: relative;
     top: 60px;
     font-size: 1.5rem;
     text-transform: uppercase;
 }
-.seven-container .ai h2{
+
+.seven-container .ai h2 {
     margin-top: 100px;
     font-size: 5rem;
     color: #7f2cbd;
 }
 
-.seven-container .ai h5{
+.seven-container .ai h5 {
     margin-top: 50px;
     width: 35%;
     font-size: 2.5rem;
     color: #7f2cbd;
 }
-.seven-container .ai p{
+
+.seven-container .ai p {
     margin-top: 30px;
     width: 35%;
     font-size: 1.4rem;
@@ -430,13 +459,13 @@
 
 .seven-container .fly-1 {
     height: 300px;
-    width: 450px; 
+    width: 450px;
     position: relative;
     left: 550px;
     top: -550px;
 }
 
-.seven-container .fly-2{
+.seven-container .fly-2 {
     height: 200px;
     width: 350px;
     background-color: aqua;
@@ -444,21 +473,24 @@
     left: 700px;
     top: -950px;
 }
-.seven-container .fly-3{
+
+.seven-container .fly-3 {
     height: 220px;
     width: 340px;
     position: relative;
     left: 730px;
     top: -1130px;
 }
-.seven-container .fly-4{
+
+.seven-container .fly-4 {
     height: 400px;
     width: 400px;
     position: relative;
     left: 409px;
     top: -870px;
 }
-.seven-container .robo{
+
+.seven-container .robo {
     width: 40%;
     position: relative;
     left: 550px;
@@ -469,13 +501,14 @@
 
 
 /* *********************************************************************** */
-.eight-container{
+.eight-container {
     width: 100%;
     height: 90vh;
     background-image: url("./assets/bggradient4.jpg");
     background-repeat: no-repeat;
 }
-.eight-container .robot1{
+
+.eight-container .robot1 {
     display: flex;
     flex-direction: row;
     position: relative;
@@ -484,27 +517,32 @@
     justify-content: center;
     column-gap: 30px;
 }
-.eight-container .robot1 .robo1{
+
+.eight-container .robot1 .robo1 {
     height: 350px;
     width: 400px;
     margin-top: -50px;
 }
-.eight-container .robot1 .robo2{
+
+.eight-container .robot1 .robo2 {
     height: 550px;
     width: 400px;
     margin-top: -120px;
 }
-.eight-container .robot1 .robo3{
+
+.eight-container .robot1 .robo3 {
     height: 400px;
     width: 400px;
     margin-top: -70px;
 }
-.eight-container .robot1 .robo4{
+
+.eight-container .robot1 .robo4 {
     height: 350px;
     width: 400px;
     margin-top: -120px;
 }
-.eight-container .lorem p{
+
+.eight-container .lorem p {
     width: 24%;
     font-size: 1.5rem;
     color: white;
@@ -516,12 +554,13 @@
 
 
 /* ******************************************************************* */
-.nine-container{
+.nine-container {
     width: 100%;
     background-color: #ff4892;
     height: 150px;
 }
-.nine-container .sample{
+
+.nine-container .sample {
     justify-content: center;
     font-weight: 100;
     font-size: 1.4rem;
@@ -529,34 +568,39 @@
     text-align: center;
     color: rgb(237, 215, 215);
 }
+
 .nine-container .sample {
     text-align: center;
-    padding: 20px 300px  0px 300px;;
+    padding: 20px 300px 0px 300px;
+    ;
 }
-.nine-container .logo{
+
+.nine-container .logo {
     text-align: center;
     word-spacing: 1px;
 }
-.nine-container .logo a{
+
+.nine-container .logo a {
     color: white;
     text-decoration: none;
-    padding: 10px; 
+    padding: 10px;
 }
 
 
 /* *********************************************** */
-.last{
+.last {
     width: 100%;
     background-color: #333333;
     height: 50px;
     color: white;
     text-align: center;
     padding-top: 10px;
-    
+
 }
- .last h3{
+
+.last h3 {
     font-size: 1.2rem;
- }
+}
 
 /* ============================================
    MEDIA QUERIES SECTION
@@ -564,64 +608,72 @@
 
 
 /* ------------ max-width: 768px ------------ */
-@media screen and (max-width: 768px){
-    .first-container{
+@media screen and (max-width: 768px) {
+    .first-container {
         background-image: url("./assets/robotgradientintro2.jpg");
         width: 100%;
-        height: 95vh;
+        height: 105vh;
     }
-    .first-container .robot{
+
+    .first-container .robot {
         height: 40px;
         width: 40px;
         display: flex;
-        /* margin-top: 70px; */
+        top: 20px;
         margin-left: 50px;
-        animation: fade-in 1.5s ease ;
+        animation: fade-in 1.5s ease;
     }
-    .first-container .robot img{
+
+    .first-container .robot img {
         height: 130px;
     }
-    .first-container .para h1{
+
+    .first-container .para h1 {
         font-size: 3rem;
         position: relative;
-        top: 130px;
+        top: 50px;
         /* left: 100px; */
     }
-    .first-container .para p{
+
+    .first-container .para p {
         font-size: 1rem;
         line-height: 1.5rem;
         position: relative;
-        top: 100px;
+        top: 60px;
         left: -10px;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .second-container {
         width: 100%;
-               /* display: flex; */
+        /* display: flex; */
     }
-    .second-container .technology h2{
+
+    .second-container .technology h2 {
         font-size: 1.5rem;
         position: relative;
         top: -160px;
         left: -30px;
     }
-    .second-container .technology h3{
+
+    .second-container .technology h3 {
         font-size: 3rem;
         position: relative;
         top: -160px;
         left: -30px;
         z-index: 1;
     }
-    .second-container .technology .border{
+
+    .second-container .technology .border {
         height: 20px;
         width: 400px;
         position: relative;
         top: -157px;
         left: -30px;
     }
-    .second-container .technology p{
+
+    .second-container .technology p {
         position: relative;
         top: -170px;
         left: -30px;
@@ -629,47 +681,54 @@
         line-height: 2rem;
         margin-left: 70px;
     }
+
     .btn-learn {
         position: relative;
         top: -170px;
     }
-    .second-container .img1 img{
-        height: 500px;
-        width: 400px;
+
+    .second-container .img1 img {
+        height: 400px;
+        width: 300px;
     }
-    .second-container .img1{
-    position: relative;
-    top: -130px;
-    left: -82px;
+
+    .second-container .img1 {
+        position: relative;
+        top: -100px;
+        left: -17px;
     }
 }
 
-@media screen and (max-width: 768px){
-    .third-container{
+@media screen and (max-width: 768px) {
+    .third-container {
         margin-top: -5%;
-        /* height: 155vh; */
+        height: 295vh;
         width: 100%;
         background-image: url(./assets/bggradient.jpg);
         background-repeat: no-repeat;
     }
-    .third-container .bubble .img2{
+
+    .third-container .bubble .img2 {
         height: 300px;
         width: 300px;
     }
-    .third-container .bubble .img3{
-        height: 300px;
+
+    .third-container .bubble .img3 {
+        height: 200px;
         position: relative;
-        top: -450px;
+        top: -420px;
         left: 400px;
     }
-    .third-container .bubble .img4{
-        height:80px;
-        width:80px;
+
+    .third-container .bubble .img4 {
+        height: 80px;
+        width: 80px;
         position: relative;
-        top: -440px;
+        top: -420px;
         right: -355px;
     }
-    .third-container .img-container{
+
+    .third-container .img-container {
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -680,34 +739,38 @@
         margin-top: -750px;
         column-gap: 30px;
     }
-    .third-container .img-container .img5{
+
+    .third-container .img-container .img5 {
         height: 300px;
-        width:270px;
+        width: 270px;
         position: relative;
         top: -50px;
     }
-    .third-container .img-container .img6{
+
+    .third-container .img-container .img6 {
         /* margin-top: 230px; */
         position: relative;
         top: 100px;
         height: 500px;
         width: 285px;
     }
-    .third-container .img-container .img7{
+
+    .third-container .img-container .img7 {
         position: relative;
         top: -400px;
         left: -10px;
         height: 350px;
         width: 270px;
     }
-    
-    .third-container .img-container .img8{
+
+    .third-container .img-container .img8 {
         height: 300px;
         width: 270px;
-       position: relative;
-       top: -200px;
+        position: relative;
+        top: -200px;
     }
-    .para3 p{
+
+    .para3 p {
         width: 45%;
         position: relative;
         top: -390px;
@@ -719,63 +782,72 @@
     }
 }
 
-@media screen and (max-width: 768px){
-    .forth-container{
+@media screen and (max-width: 768px) {
+    .forth-container {
         width: 100%;
         height: 50vh;
     }
-    .forth-container .tech h2{
+
+    .forth-container .tech h2 {
         margin-top: -330px;
         margin-left: 50px;
     }
-    .forth-container .tech h3{
+
+    .forth-container .tech h3 {
         margin-top: 30px;
         margin-left: 50px;
         font-size: 2.2rem;
     }
-    .forth-container .box{
+
+    .forth-container .box {
         display: flex;
         /* flex-direction: column; */
         /* flex-wrap: wrap; */
-        gap:  3rem;
+        gap: 3rem;
         margin: 50px;
-        width: 85%;  
-        
+        width: 85%;
+
         /* z-index: 3; */
     }
-    .forth-container .box p{
+
+    .forth-container .box p {
         width: 120%;
         margin-top: 10px;
         line-height: 1.8rem;
     }
-    .forth-container .box h3{
+
+    .forth-container .box h3 {
         font-size: 2rem;
         color: #7f2cbd;
         margin-top: 10px;
     }
-    .forth-container .box4 img{
-        height: 250px;
-        width: 300px;
+
+    .forth-container .box4 img {
+        height: 200px;
+        width: 250px;
         position: relative;
-        left: -345px;
-        top: 130px;
+        left: -384px;
+        top: 0px;
     }
 }
 
-@media screen and (max-width: 768px){
-    .fifth-container{
+@media screen and (max-width: 768px) {
+    .fifth-container {
 
         width: 100%;
     }
+
     .fifth-container .box5 {
         margin-top: -100px;
         height: 300px;
         width: 300px;
     }
-    .fifth-container .Jeff-Bezos h2{
+
+    .fifth-container .Jeff-Bezos h2 {
         font-size: 10rem;
     }
-    .fifth-container .Jeff-Bezos P{
+
+    .fifth-container .Jeff-Bezos P {
         width: 90%;
         font-size: 1.3rem;
         position: relative;
@@ -783,7 +855,8 @@
         color: black;
         line-height: 2rem;
     }
-    .fifth-container .Jeff-Bezos h3{
+
+    .fifth-container .Jeff-Bezos h3 {
         font-size: 2.3rem;
         margin-left: 270px;
         margin-top: 70px;
@@ -792,25 +865,28 @@
     }
 }
 
-@media screen and (max-width: 768px){
-    .sixth-container{
+@media screen and (max-width: 768px) {
+    .sixth-container {
         background-image: url(./assets/bggradient.jpg);
         width: 100%;
     }
-    .sixth-container .box5 img{
+
+    .sixth-container .box5 img {
         height: 300px;
-        width:430px;
+        width: 400px;
         margin-top: -100px;
-        margin-left: 60px;
+        margin-left: 20px;
     }
-    .sixth-container .box6{
+
+    .sixth-container .box6 {
         height: 300px;
-        width: 200px;
+        width: 180px;
         margin-left: -700px;
         background-color: rgb(2, 5, 5);
-        
+
     }
-    .sixth-container .box7 img{
+
+    .sixth-container .box7 img {
         height: 230px;
         width: 350px;
         position: relative;
@@ -818,115 +894,128 @@
         margin-top: 150px;
         margin-bottom: 100px;
     }
-    
-    .sixth-container .Cars{
+
+    .sixth-container .Cars {
         margin-left: 350px;
-        font-size: 3rem;
+        font-size: 2rem;
         color: rgb(19, 14, 14);
     }
-    .sixth-container .Cars h2{
+
+    .sixth-container .Cars h2 {
         position: relative;
-        top:50px;
+        top: 40px;
         font-size: 2rem;
         z-index: 1;
     }
-    
-    .sixth-container .Cars .line{
+
+    .sixth-container .Cars .line {
         height: 10px;
         width: 200px;
         background-color: aqua;
         position: relative;
-        top: 40px;
+        top: 30px;
     }
-    
-    .sixth-container .Cars p{
+
+    .sixth-container .Cars p {
         width: 100%;
         font-size: 1.3rem;
-        margin-top: 80px;
-        margin-right: 30px;
-        line-height: 1.6rem;
-    }   
+        margin-top: 70px;
+        margin-right: 20px;
+        line-height: 1.5rem;
+    }
 }
 
-@media screen and (max-width: 768px){
-    .seven-container{
+@media screen and (max-width: 768px) {
+    .seven-container {
         width: 100%;
         height: 900px;
         background-color: lightgray;
     }
-    .seven-container .ai{
+
+    .seven-container .ai {
         margin-left: 40px;
     }
-    .seven-container .ai h4{
+
+    .seven-container .ai h4 {
         position: relative;
         top: 30px;
         font-size: 1.5rem;
         text-transform: uppercase;
     }
-    .seven-container .ai h2{
-        margin-top: 40px;
-        font-size: 3.5rem;
+
+    .seven-container .ai h2 {
+        margin-top: 30px;
+        font-size: 2.5rem;
         color: #7f2cbd;
+        ;
     }
-    .seven-container .ai h5{
+
+    .seven-container .ai h5 {
         margin-top: 20px;
         width: 35%;
         font-size: 1.7rem;
         color: #7f2cbd;
     }
-    .seven-container .ai p{
+
+    .seven-container .ai p {
         margin-top: 20px;
         width: 40%;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         line-height: 1.7rem;
     }
-    .seven-container .fly-1{
-        height: 200px;
-        width: 300px; 
+
+    .seven-container .fly-1 {
+        height: 180px;
+        width: 300px;
         position: relative;
-        left:370px;
+        left: 330px;
         top: -500px;
     }
-    
-    .seven-container .fly-2{
-        height: 200px;
+
+    .seven-container .fly-2 {
+        height: 180px;
         width: 300px;
         background-color: aqua;
         position: relative;
-        left: 400px;
+        left: 300px;
         top: -840px;
     }
-    .seven-container .fly-3{
+
+    .seven-container .fly-3 {
         height: 200px;
         width: 300px;
         position: relative;
-        left: 420px;
+        left: 320px;
         top: -1030px;
     }
-    .seven-container .fly-4{
-        height: 300px;
-        width: 300px;
+
+    .seven-container .fly-4 {
+        height: 200px;
+        width: 200px;
         position: relative;
-        left: 163px;
-        top: -770px;
+        left: 175px;
+        top: -870px;
     }
-    .seven-container .robo{
+
+    .seven-container .robo {
         width: 40%;
         position: relative;
         left: 380px;
-        top: -930px;
-        font-size: 1.4rem;
+        top: -850px;
+        font-size: 1.3rem;
+        line-height: 1.7rem;
     }
 }
 
-@media screen and (max-width: 768px){
-    .eight-container{
+@media screen and (max-width: 768px) {
+    .eight-container {
         width: 100%;
         /* height: 90vh; */
         background-image: url("./assets/bggradient4.jpg");
         background-repeat: no-repeat;
     }
-    .eight-container .robot1{
+
+    .eight-container .robot1 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -935,174 +1024,199 @@
         justify-content: center;
         column-gap: 10px;
     }
-    .eight-container .robot1 .robo1{
+
+    .eight-container .robot1 .robo1 {
         height: 350px;
-        width: 180px;
+        width: 160px;
         margin-top: -50px;
     }
-    .eight-container .robot1 .robo2{
+
+    .eight-container .robot1 .robo2 {
         height: 550px;
-        width: 180px;
+        width: 160px;
         margin-top: -120px;
     }
-    .eight-container .robot1 .robo3{
+
+    .eight-container .robot1 .robo3 {
         height: 400px;
-        width: 180px;
+        width: 160px;
         margin-top: -70px;
     }
-    .eight-container .robot1 .robo4{
+
+    .eight-container .robot1 .robo4 {
+        /* display: none; */
         height: 350px;
-        width: 180px;
+        width: 160px;
         margin-top: -120px;
         position: relative;
-        left: 380px;
+        left: 340px;
         top: -350px;
     }
-    .eight-container .lorem p{
-        width: 40%;
-        font-size: 1.5rem;
+
+    .eight-container .lorem p {
+        width: 37%;
+        position: sticky;
+        font-size: 1.2rem;
         color: white;
-        line-height: 1.7rem;
-        margin-left: 450px;
+        line-height: 1.3rem;
+        margin-left: 350px;
         margin-top: -325px;
     }
 }
 
-@media screen and (max-width: 768px){
-    .nine-container{
+@media screen and (max-width: 768px) {
+    .nine-container {
         width: 100%;
         background-color: #ff4892;
         height: 150px;
     }
+
     .nine-container .sample {
         justify-content: center;
         width: 100%;
         position: relative;
-        padding: 20px 30px  10px 30px;
+        padding: 20px 30px 10px 30px;
         line-height: 1.4rem;
     }
-   
-    .nine-container .logo{
+
+    .nine-container .logo {
         text-align: center;
         word-spacing: 1px;
         margin-top: -10px;
     }
-    .nine-container .logo a{
+
+    .nine-container .logo a {
         color: white;
         text-decoration: none;
-        padding: 10px; 
+        padding: 10px;
     }
 
 }
 
 /* ------------ max-width: 480px ------------ */
-@media screen and (max-width: 480px){
-    .first-container{
+@media screen and (max-width: 480px) {
+    .first-container {
         background-image: url("./assets/robotgradientintro2.jpg");
         width: 100%;
-        height: 120vh;
-      
+        height: 100vh;
+
     }
-    .first-container .robot{
-        height: 40px;
+
+    .first-container .robot {
+        height: 10px;
         width: 40px;
         display: flex;
-        margin-left: 50px;
-        animation: fade-in 1.5s ease ;
+        margin-left: 10px;
+        animation: fade-in 1.5s ease;
     }
-    .first-container .robot img{
+
+    .first-container .robot img {
         height: 70px;
-        margin-top: -30px;
+        /* margin-top: -0px; */
     }
-    .first-container .para h1{
-        font-size: 1.5rem;
+
+    .first-container .para h1 {
+        font-size: 1.3rem;
         position: relative;
         top: 50px;
-        left: 80px;
+        left: 40px;
     }
-    .first-container .para p{
+
+    .first-container .para p {
         /* font-size: rem; */
-        line-height: 1.5rem;
+        line-height: 1.2rem;
         position: relative;
-        top: 30px;
-        left: -35px;
+        top: 40px;
+        left: -65px;
     }
 }
 
-@media screen and (max-width: 480px){
-    .second-container .technology h2{
+@media screen and (max-width: 480px) {
+    .second-container .technology h2 {
         font-size: 1rem;
         position: relative;
-        top: -350px;
+        top: -280px;
         left: -45px;
     }
-    .second-container .technology h3{
+
+    .second-container .technology h3 {
         font-size: 2.3rem;
         position: relative;
-        top: -350px;
+        top: -270px;
         left: -45px;
         z-index: 1;
     }
-    .second-container .technology .border{
+
+    .second-container .technology .border {
         height: 20px;
         width: 270px;
         position: relative;
-        top: -340px;
+        top: -260px;
         left: -45px;
     }
-    .second-container .technology p{
+
+    .second-container .technology p {
         position: relative;
-        top: -370px;
+        z-index: 1;
+        top: -270px;
         left: -45px;
         width: 110%;
-        font-size: 1.5rem;
-        line-height: 1.7rem;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
         margin-left: 70px;
-        
+
     }
+
     .btn-learn {
         position: relative;
-        top: -385px;
+        top: -285px;
+        margin-bottom: 90px;
     }
-    .second-container .img1 img{
+
+    .second-container .img1 img {
         height: 250px;
         width: 200px;
     }
-    .second-container .img1{
-    position: relative;
-    top: -230px;
-    left: 27px;
+
+    .second-container .img1 {
+        position: relative;
+        top: -130px;
+        left: 27px;
     }
 }
 
-@media screen and (max-width: 480px){
-    .third-container{
+@media screen and (max-width: 480px) {
+    .third-container {
         margin-top: -55%;
-        height: 280vh;
-        width: 100%;
+        /* height: 160vh; */
+        /* width: 100%; */
         background-image: url(./assets/bggradient.jpg);
         background-repeat: no-repeat;
     }
-    .third-container .bubble .img2{
+
+    .third-container .bubble .img2 {
         height: 200px;
-        width: 200px;
+        width: 140px;
         position: relative;
         top: -100px;
     }
-    .third-container .bubble .img3{
-        height: 250px;
+
+    .third-container .bubble .img3 {
+        height: 170px;
         position: relative;
         top: -300px;
-        left: 200px;
+        left: 230px;
     }
-    .third-container .bubble .img4{
-        height:80px;
-        width:80px;
+
+    .third-container .bubble .img4 {
+        height: 80px;
+        width: 80px;
         position: relative;
         top: -290px;
-        right: -140px;
+        right: -220px;
     }
-    .third-container .img-container{
+
+    .third-container .img-container {
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -1112,116 +1226,137 @@
         align-items: center;
         margin-top: -750px;
     }
-    .third-container .img-container .img5{
-        height: 300px;
-        width:220px;
+
+    .third-container .img-container .img5 {
+        height: 200px;
+        width: 180px;
         position: relative;
-        top: 100px;
-        left: 20px;
+        top: 80px;
+        left: 30px;
     }
-    .third-container .img-container .img6{
+
+    .third-container .img-container .img6 {
         /* margin-top: 230px; */
         position: relative;
-        top: 250px;
-        /* left: 150px; */
-        height: 400px;
-        width: 205px;
+        z-index: 1;
+        top: 140px;
+        left: 20px;
+        height: 200px;
+        width: 145px;
     }
-    .third-container .img-container .img7{
+
+    .third-container .img-container .img7 {
         position: relative;
-        top: -230px;
-        left: 17px;
-        height: 250px;
-        width: 220px;
+        top: -240px;
+        left: 200px;
+        height: 220px;
+        width: 175px;
     }
-    
-    .third-container .img-container .img8{
+
+    .third-container .img-container .img8 {
         height: 300px;
-        width: 205px;
+        width: 175px;
         position: relative;
-        top: -20px;
+        top: -140px;
+        left: -195px;
     }
-    .para3 p{
-        width: 45%;
+
+    .para3 p {
+        width: 90%;
         position: relative;
-        top: -200px;
+        top: -100px;
         left: -620px;
         font-size: 1.3rem;
         color: white;
         line-height: 1.5rem;
+        /* margin-bottom: 20px; */
     }
 }
 
-@media screen and (max-width: 480px){
-    .forth-container{
+@media screen and (max-width: 480px) {
+    .forth-container {
         width: 100%;
-        height: 85vh;
+        height: 105vh;
+        /* margin-top: 390px; */
     }
-    .forth-container .tech h2{
-        margin-top: -360px;
+
+    .forth-container .tech h2 {
+        /* margin-top: -360px; */
         margin-left: 50px;
-        font-size: 1rem;
+        font-size: 2.6rem;
+        font-weight: 600;
     }
-    .forth-container .tech h3{
+
+    .forth-container .tech h3 {
         margin-top: 20px;
         margin-left: 50px;
         font-size: 1.6rem;
     }
-    .forth-container .box{
+
+    .forth-container .box {
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
         margin-top: 10px;
         margin-left: 50px;
     }
-    .box1 img{
+
+    .box1 img {
         height: 80px;
         width: 80px;
     }
-    .box2 img{
-        height: 80px;
-        width: 80px;
-        margin-top: -20px;
-    }
-    .box3 img{
+
+    .box2 img {
         height: 80px;
         width: 80px;
         margin-top: -20px;
     }
-    .forth-container .box p{
+
+    .box3 img {
+        height: 80px;
+        width: 80px;
+        margin-top: -20px;
+    }
+
+    .forth-container .box p {
         width: 100%;
         margin-top: 10px;
         font-size: 1.2rem;
     }
-    .forth-container .box h3{
+
+    .forth-container .box h3 {
         font-size: 1.4rem;
         color: #7f2cbd;
         margin-top: 10px;
     }
-    
-    .forth-container .box4 img{
+
+    .forth-container .box4 img {
+        display: none;
         height: 200px;
         width: 200px;
         position: relative;
-        left: -533px;
-        top: -80px;
+        left: -133px;
+        top: 250px;
     }
 }
 
-@media screen and (max-width: 480px){
-    .fifth-container{
+@media screen and (max-width: 480px) {
+    .fifth-container {
         width: 100%;
     }
+
     .fifth-container .box5 {
         margin-top: -50px;
         height: 200px;
         width: 200px;
     }
-    .fifth-container .Jeff-Bezos h2{
+
+    .fifth-container .Jeff-Bezos h2 {
         font-size: 7rem;
         margin-left: -10px;
     }
-    .fifth-container .Jeff-Bezos P{
+
+    .fifth-container .Jeff-Bezos P {
         width: 90%;
         font-size: 1.3rem;
         position: relative;
@@ -1229,7 +1364,8 @@
         color: black;
         line-height: 2rem;
     }
-    .fifth-container .Jeff-Bezos h3{
+
+    .fifth-container .Jeff-Bezos h3 {
         font-size: 2.3rem;
         margin-left: 70px;
         margin-top: 70px;
@@ -1238,25 +1374,28 @@
     }
 }
 
-@media screen and (max-width: 480px){
-    .sixth-container{
+@media screen and (max-width: 480px) {
+    .sixth-container {
         background-image: url(./assets/bggradient.jpg);
         width: 100%;
     }
-    .sixth-container .box5 img{
-        height:250px;
-        width:430px;
+
+    .sixth-container .box5 img {
+        height: 250px;
+        width: 430px;
         margin-top: -100px;
         margin-left: 25px;
     }
-    .sixth-container .box6{
+
+    .sixth-container .box6 {
         height: 300px;
         width: 200px;
-        margin-left:-700px;
+        margin-left: -700px;
         background-color: rgb(2, 5, 5);
-        
+
     }
-    .sixth-container .box7 img{
+
+    .sixth-container .box7 img {
         height: 230px;
         width: 350px;
         position: relative;
@@ -1264,8 +1403,8 @@
         margin-top: 100px;
         margin-bottom: 100px;
     }
-    
-    .sixth-container .Cars{
+
+    .sixth-container .Cars {
         position: relative;
         left: -300px;
         top: 300px;
@@ -1273,15 +1412,16 @@
         font-size: 3rem;
         color: rgb(19, 14, 14);
     }
-    .sixth-container .Cars h2{
+
+    .sixth-container .Cars h2 {
         position: relative;
-        top:30px;
+        top: 30px;
         font-size: 3rem;
         left: -70px;
         z-index: 1;
     }
-    
-    .sixth-container .Cars .line{
+
+    .sixth-container .Cars .line {
         height: 10px;
         width: 300px;
         background-color: aqua;
@@ -1289,9 +1429,9 @@
         top: 15px;
         left: -80px;
     }
-    
-    .sixth-container .Cars p{
-        
+
+    .sixth-container .Cars p {
+
         width: 400px;
         font-size: 1.2rem;
         margin-top: 30px;
@@ -1300,50 +1440,56 @@
         justify-content: center;
         line-height: 1.4rem;
         z-index: 1;
-    }   
+    }
 }
 
-@media screen and (max-width: 480px){
-    .seven-container{
+@media screen and (max-width: 480px) {
+    .seven-container {
         width: 100%;
         height: 900px;
         background-color: lightgray;
     }
-    .seven-container .ai{
+
+    .seven-container .ai {
         margin-left: 20px;
     }
-    .seven-container .ai h4{
+
+    .seven-container .ai h4 {
         position: relative;
         top: 30px;
         font-size: 1.4rem;
         text-transform: uppercase;
     }
-    .seven-container .ai h2{
+
+    .seven-container .ai h2 {
         margin-top: 40px;
         font-size: 2.7rem;
         color: #7f2cbd;
     }
-    .seven-container .ai h5{
+
+    .seven-container .ai h5 {
         margin-top: 20px;
         width: 35%;
         font-size: 1.3rem;
         color: #7f2cbd;
     }
-    .seven-container .ai p{
+
+    .seven-container .ai p {
         margin-top: 20px;
         width: 40%;
         font-size: 1.2rem;
         line-height: 1.3rem;
     }
-    .seven-container .fly-1{
+
+    .seven-container .fly-1 {
         height: 200px;
-        width: 240px; 
+        width: 240px;
         position: relative;
         left: 220px;
         top: -370px;
     }
-    
-    .seven-container .fly-2{
+
+    .seven-container .fly-2 {
         height: 200px;
         width: 200px;
         background-color: aqua;
@@ -1351,21 +1497,24 @@
         left: 230px;
         top: -740px;
     }
-    .seven-container .fly-3{
+
+    .seven-container .fly-3 {
         height: 200px;
         width: 240px;
         position: relative;
         left: 240px;
         top: -930px;
     }
-    .seven-container .fly-4{
+
+    .seven-container .fly-4 {
         height: 200px;
         width: 200px;
         position: relative;
         left: 35px;
         top: -700px;
     }
-    .seven-container .robo{
+
+    .seven-container .robo {
         width: 50%;
         position: relative;
         left: 230px;
@@ -1375,15 +1524,16 @@
     }
 }
 
-@media screen and (max-width: 480px){
-    .eight-container{
+@media screen and (max-width: 480px) {
+    .eight-container {
         width: 100%;
         height: 90vh;
         background-image: url("./assets/bggradient4.jpg");
         background-repeat: no-repeat;
         background-size: cover
     }
-    .eight-container .robot1{
+
+    .eight-container .robot1 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1392,19 +1542,22 @@
         /* justify-content: center; */
         column-gap: 10px;
     }
-    .eight-container .robot1 .robo1{
+
+    .eight-container .robot1 .robo1 {
         height: 350px;
         width: 180px;
         margin-top: -100px;
         margin-left: -20px;
     }
-    .eight-container .robot1 .robo2{
+
+    .eight-container .robot1 .robo2 {
         height: 350px;
         width: 180px;
         margin-top: -420px;
         margin-left: 400px;
     }
-    .eight-container .robot1 .robo3{
+
+    .eight-container .robot1 .robo3 {
         height: 200px;
         width: 180px;
         margin-top: 10px;
@@ -1412,15 +1565,17 @@
         left: 90px;
         /* margin-left: 20px; */
     }
-    .eight-container .robot1 .robo4{
+
+    .eight-container .robot1 .robo4 {
         height: 250px;
         width: 180px;
         margin-top: -120px;
         position: relative;
-        left:100px;
+        left: 100px;
         top: 60px;
     }
-    .eight-container .lorem p{
+
+    .eight-container .lorem p {
         width: 40%;
         font-size: 1.5rem;
         color: black;
@@ -1434,32 +1589,35 @@
     }
 }
 
-@media screen and (max-width: 480px){
-    .nine-container{
+@media screen and (max-width: 480px) {
+    .nine-container {
         width: 100%;
         height: 160px;
-        
+
     }
-    .nine-container .sample  {
+
+    .nine-container .sample {
         justify-content: center;
         width: 100%;
         position: relative;
-        padding: 15px 30px  0px 30px;
+        padding: 15px 30px 0px 30px;
         font-size: 1.2rem;
-        
+
     }
-    .nine-container .logo{
+
+    .nine-container .logo {
         text-align: center;
         word-spacing: 1px;
         margin-top: 0px;
         position: relative;
         top: 10px;
     }
-    .nine-container .logo a{
+
+    .nine-container .logo a {
         color: white;
         text-decoration: none;
         /* padding: 0px; */
-     
+
     }
 
 }
